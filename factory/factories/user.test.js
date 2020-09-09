@@ -1,6 +1,6 @@
 import USER_TYPES from '../constants/user'
 import userFactory from './user'
-import { AdminUser, ExecutiveUser, OperatorUser, PublicUser } from '../model/user'
+import { AdminUser, ExecutiveUser, OperatorUser, PublicUser } from '../models/user'
 
 const INITIAL_USER = {
   name: 'User',

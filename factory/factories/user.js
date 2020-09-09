@@ -1,5 +1,5 @@
 import USER_TYPES from '../constants/user.js'
-import { AdminUser, OperatorUser, ExecutiveUser, PublicUser } from '../model/user.js'
+import { AdminUser, OperatorUser, ExecutiveUser, PublicUser } from '../models/user.js'
 
 class UserFactory {
   create(user) {

@@ -13,7 +13,7 @@ function checkBasicAttributes(user) {
   expect(user.getPassword()).toEqual(INITIAL_USER.password)
 }
 
-describe('Testes para o modelo de usuários', () => {
+describe('Testes para o modelso de usuários', () => {
   it('Deve criar um usuário do tipo Admin', () => {
     const user = new AdminUser({
       ...INITIAL_USER,

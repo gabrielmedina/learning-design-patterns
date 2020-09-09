@@ -1,5 +1,5 @@
 import USER_TYPES from './constants/user.js'
-import userFactory from './factory/user.js'
+import userFactory from './factories/user.js'
 
 try {
   const user = userFactory.create({
